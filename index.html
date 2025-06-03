@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAS для DDNet - Курс</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <i class="fas fa-gamepad"></i>
+                TAS DDNet
+            </div>
+            <button class="mobile-menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#hero">Головна</a></li>
+                <li><a href="#about">Про TAS</a></li>
+                <li><a href="#courses">Курси</a></li>
+                <li><a href="#process">Процес</a></li>
+                <li><a href="#reviews">Відгуки</a></li>
+                <li><a href="#contact">Контакти</a></li>
+                <li class="theme-toggle">
+                    <button id="themeToggle">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">🚀 Новий курс</div>
+            <h1>Створюй TAS для DDNet</h1>
+            <p>Навчись створювати ідеальні проходження та заробляй на своїх навичках</p>
+            <div class="hero-buttons">
+                <button class="cta-button">Почати навчання</button>
+                <button class="secondary-button">Дізнатись більше</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Успішних учнів</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Створених TAS</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Підтримка</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-pattern"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>Що таке TAS?</h2>
+            <p class="section-subtitle">Дізнайтесь про можливості Tool-Assisted Speedrun</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-description">TAS (Tool-Assisted Speedrun) — це спеціально створений прохід рівня з використанням інструментів для ідеально точних рухів, які неможливо виконати вручну.</p>
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Ідеальна точність</h3>
+                        <p>Запис кожного руху з точністю до кадру</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <h3>Оптимізація</h3>
+                        <p>Найшвидший шлях проходження</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Навчання</h3>
+                        <p>Розуміння механік гри</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="section-header">
+            <h2>Наші Курси</h2>
+            <p class="section-subtitle">Виберіть курс, який підходить саме вам</p>
+        </div>
+        <div class="course-cards">
+            <div class="course-card">
+                <div class="course-badge">Популярний</div>
+                <h3>Створення TAS для DDNet</h3>
+                <div class="course-price">
+                    <span class="price">$99</span>
+                    <span class="price-old">$149</span>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Курс по TAS</li>
+                    <li><i class="fas fa-check"></i> Інструменти та налаштування</li>
+                    <li><i class="fas fa-check"></i> Запис та оптимізація</li>
+                    <li><i class="fas fa-check"></i> Експорт та використання</li>
+                </ul>
+                <button class="course-button">Придбати курс</button>
+            </div>
+            <div class="course-card">
+                <div class="course-badge">Новий</div>
+                <h3>Використання TAS у DDNet</h3>
+                <div class="course-price">
+                    <span class="price">$79</span>
+                    <span class="price-old">$129</span>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Встановлення та налаштування</li>
+                    <li><i class="fas fa-check"></i> Запуск та аналіз</li>
+                    <li><i class="fas fa-check"></i> Коригування під себе</li>
+                    <li><i class="fas fa-check"></i> Розбір помилок</li>
+                </ul>
+                <button class="course-button">Придбати курс</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="section-header">
+            <h2>Як проходить навчання</h2>
+            <p class="section-subtitle">Простий шлях до успіху</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3>1. Реєстрація</h3>
+                    <p>Отримайте доступ до всіх матеріалів</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>2. Навчання</h3>
+                    <p>Відеоуроки та практичні завдання</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>3. Практика</h3>
+                    <p>Створення власного TAS</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>4. Результат</h3>
+                    <p>Готовий продукт для продажу</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offer Section -->
+    <section id="special-offer" class="special-offer">
+        <div class="section-header">
+            <h2>Спеціальна пропозиція!</h2>
+            <p class="section-subtitle">Знижка 20% на всі курси</p>
+        </div>
+        <div class="countdown-container">
+            <div class="countdown-item">
+                <span class="countdown-number" id="hours">24</span>
+                <span class="countdown-label">Годин</span>
+            </div>
+            <div class="countdown-item">
+                <span class="countdown-number" id="minutes">00</span>
+                <span class="countdown-label">Хвилин</span>
+            </div>
+            <div class="countdown-item">
+                <span class="countdown-number" id="seconds">00</span>
+                <span class="countdown-label">Секунд</span>
+            </div>
+        </div>
+        <button class="cta-button special-offer-button" onclick="openModalWithCourse('special-offer')">
+            Скористатись пропозицією
+        </button>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="section-header">
+            <h2>Відгуки</h2>
+            <p class="section-subtitle">Що кажуть наші учні</p>
+        </div>
+        <div class="reviews-container">
+            <div class="swiper reviewSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="review-card">
+                            <div class="review-content">
+                                <div class="review-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Навчився створювати TAS за 3 дні — тепер мої проходження виглядають як магія!"</p>
+                                <div class="reviewer">
+                                    <img src="https://i.pravatar.cc/150?img=1" alt="Аватар рецензента" class="reviewer-avatar">
+                                    <div class="reviewer-info">
+                                        <h4>Андрій</h4>
+                                        <p>Учень курсу</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-card">
+                            <div class="review-content">
+                                <div class="review-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Чудовий курс! Всі пояснення зрозумілі, а підтримка завжди на зв'язку."</p>
+                                <div class="reviewer">
+                                    <img src="https://i.pravatar.cc/150?img=2" alt="Аватар рецензента" class="reviewer-avatar">
+                                    <div class="reviewer-info">
+                                        <h4>Марія</h4>
+                                        <p>Учень курсу</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-card">
+                            <div class="review-content">
+                                <div class="review-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Після проходження курсу зміг створити свій перший TAS за 2 тижні. Рекомендую!"</p>
+                                <div class="reviewer">
+                                    <img src="https://i.pravatar.cc/150?img=3" alt="Аватар рецензента" class="reviewer-avatar">
+                                    <div class="reviewer-info">
+                                        <h4>Олександр</h4>
+                                        <p>Учень курсу</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-card">
+                            <div class="review-content">
+                                <div class="review-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Найкращий курс для початківців. Всі теми розібрані детально і з прикладами."</p>
+                                <div class="reviewer">
+                                    <img src="https://i.pravatar.cc/150?img=4" alt="Аватар рецензента" class="reviewer-avatar">
+                                    <div class="reviewer-info">
+                                        <h4>Катерина</h4>
+                                        <p>Учень курсу</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-card">
+                            <div class="review-content">
+                                <div class="review-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Дуже задоволений результатом. Тепер створюю TAS для своїх друзів."</p>
+                                <div class="reviewer">
+                                    <img src="https://i.pravatar.cc/150?img=5" alt="Аватар рецензента" class="reviewer-avatar">
+                                    <div class="reviewer-info">
+                                        <h4>Віктор</h4>
+                                        <p>Учень курсу</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Зв'яжіться з нами</h2>
+            <p class="section-subtitle">Ми завжди раді допомогти</p>
+        </div>
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Ваше ім'я" required>
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Ваше повідомлення" required></textarea>
+                    <i class="fas fa-comment"></i>
+                </div>
+                <button type="submit" class="submit-button">
+                    <span>Надіслати</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Про нас</h3>
+                <p>Ми навчаємо створювати TAS для DDNet з 2020 року. Наша мета - допомогти кожному гравцю досягти успіху.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Контакти</h3>
+                <p><i class="fas fa-envelope"></i> info@tasddnet.com</p>
+                <p><i class="fab fa-telegram"></i> @tasddnet</p>
+                <p><i class="fas fa-phone"></i> +380 (XX) XXX-XX-XX</p>
+            </div>
+            <div class="footer-section">
+                <h3>Соцмережі</h3>
+                <div class="social-links">
+                    <a href="https://www.youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://t.me" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="https://discord.com" target="_blank" title="Discord"><i class="fab fa-discord"></i></a>
+                    <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TAS DDNet. Всі права захищені.</p>
+            <div class="footer-links">
+                <a href="#">Політика конфіденційності</a>
+                <a href="#">Умови використання</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Window -->
+    <div class="modal" id="applicationModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Заявка на навчання</h2>
+            <form id="applicationForm">
+                <div class="form-group">
+                    <label for="course">Виберіть курс:</label>
+                    <select id="course" required>
+                        <option value="">Оберіть курс</option>
+                        <option value="tas-creation">Створення TAS для DDNet ($99)</option>
+                        <option value="tas-usage">Використання TAS у DDNet ($79)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="name">Ваше ім'я:</label>
+                    <input type="text" id="name" placeholder="Введіть ваше ім'я" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Введіть ваш email" required>
+                </div>
+                <div class="form-group">
+                    <label for="experience">Досвід у DDNet:</label>
+                    <select id="experience" required>
+                        <option value="">Оберіть ваш досвід</option>
+                        <option value="beginner">Початківець</option>
+                        <option value="intermediate">Середній рівень</option>
+                        <option value="advanced">Досвідчений гравець</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Додаткова інформація:</label>
+                    <textarea id="message" placeholder="Розкажіть про себе та ваші цілі" rows="4"></textarea>
+                </div>
+                <button type="submit" class="submit-button">
+                    <span>Відправити заявку</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+    <!-- Cookie Consent -->
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="cookie-content">
+            <p>Мы используем файлы cookie для улучшения вашего опыта на нашем сайте. Продолжая использовать сайт, вы соглашаетесь с нашей политикой использования cookie.</p>
+            <div class="cookie-buttons">
+                <button class="cookie-accept" id="acceptCookies">Принять</button>
+                <button class="cookie-decline" id="declineCookies">Отказаться</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" title="Наверх">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html> 
